@@ -213,7 +213,7 @@ class Login_System:
             return 'f'
 
 
-
-root = Tk()
-obj = Login_System(root)
-root.mainloop()
+if __name__=="__main__":
+    root = Tk()
+    obj = Login_System(root)
+    root.mainloop()
